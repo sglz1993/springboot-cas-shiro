@@ -25,7 +25,7 @@ import java.util.Map;
  */
 @Configuration
 public class ShiroCasConfiguration {
-    private static final String casFilterUrlPattern = "/s";
+    private static final String casFilterUrlPattern = "/shiro-cas";
 
     @Bean
     public FilterRegistrationBean filterRegistrationBean() {
